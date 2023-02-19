@@ -1,0 +1,15 @@
+#parent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+.child {
+  width: 200px;
+  height: 200px;
+  background-color: aliceblue;
+  border: 1px solid black;
+}
